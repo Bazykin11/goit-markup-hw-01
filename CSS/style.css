@@ -1,0 +1,160 @@
+:root {
+    --primary-font-family: 'Roboto';
+    --secondary-font-family: 'Raleway';
+    --primary-font-color:#212121;
+    --secondary-font-color: #757575;
+    --third-font-color: #FFFFFF;
+    --first-background-color:#2196F3;;
+}
+
+body {
+    font-family: var( --primary-font-family), sans-serif;
+    color:var(--primary-font-color)
+}
+
+.link {
+    text-decoration:none;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    font-family:var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.7
+    letter-spacing: 0.03em;
+    color:var(--first-background-color);
+}
+
+.logo-accent {
+    color:var(--primary-font-color);
+}
+
+.title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color:var(--primary-font-color);
+}
+/* ---------------HEADER------------------- */
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color:var(--first-background-color);
+}
+
+.header-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--secondary-font-color);
+}
+
+/* ----------------HERO----------------- */
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color:var(--third-font-color);
+    }
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color:var(--third-font-color);
+    background:var(--first-background-color);
+    cursor: pointer;
+    }
+
+    /* -------------BENEFITS-------------- */
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-text{
+    font-size: 14px;
+    line-height: 1.71
+    letter-spacing: 0.03em;
+    color:var(--secondary-font-color);
+    }
+
+/* -------------TEAM-------------- */
+
+.team-suptitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.team-subtitle {
+    font-size: 16px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-font-color);
+}
+
+/* -----------FOOTER--------------- */
+
+.contact-info-link-geo {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--third-font-color);
+    color: #FFFFFF;
+}
+
+.contact-info-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-font-color);
+}
+
+
+.logo-accent-secondary{
+    color: var(--third-font-color)
+}
+
+
+/* ------------------------PORTFOLIO----------------------------- */
+
+.filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color:var(--first-background-color);
+    color: var(--third-font-color);
+}
